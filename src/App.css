@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,45 @@
   to {
     transform: rotate(360deg);
   }
+} */
+#heading{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
 }
+.bold{
+    font-weight: bold;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    padding-top: 32px;
+}
+
+.largeText{
+    font-size: x-large;
+}
+
+#starDiv{
+    display: flex;
+    justify-content:left;
+    flex-wrap: wrap;
+    width: 40%;
+    padding-top: 32px;
+    padding-left: 16px;
+}
+
+.starBox{
+    height: 50px;
+    width: 55px;
+}
+.starBoxImage{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
